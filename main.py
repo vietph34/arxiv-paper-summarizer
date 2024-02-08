@@ -62,7 +62,7 @@ with col2:
 #                                   ("American English", "British English"))
 
 def get_text():
-    input_text = st.text_area(label="", placeholder="Your Email...", key="email_input")
+    input_text = st.text_area(label="", placeholder="Arxiv ID...", key="id_input")
     return input_text
 
 st.markdown("## Enter The Arxiv ID")
